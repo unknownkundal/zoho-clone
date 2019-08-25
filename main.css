@@ -1,0 +1,154 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+}
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+#main-container {
+  width: 85%;
+  margin: auto;
+}
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+.logo {
+  width: 9%;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  margin: 0.625rem;
+}
+
+.lang {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-left: 0.3rem;
+}
+nav ul li a:hover {
+  color: blueviolet;
+}
+
+/* section intro */
+#intro-section {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+}
+#intro-section h1 {
+  font-size: 2.25rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  word-spacing: 0.01rem;
+  padding: 20px;
+}
+#intro-section p {
+  letter-spacing: 0.05rem;
+  font-weight: 500;
+  padding: 5px;
+}
+/* featured-section */
+#featured-sep {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+#featured-app {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#left-section {
+  background-color: rgba(204, 204, 204, 0.2);
+  width: 50%;
+  padding: 60px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#left-sectionA {
+  padding-right: 30px;
+}
+.left-sectionB h1 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.left-sectionB button {
+  margin-top: 15px;
+  padding: 10px 10px;
+  color: white;
+  font-weight: 500;
+  background-color: #ff5252;
+  border: none;
+}
+/* right section */
+#right-section {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#right-section div img {
+  width: 54px;
+  height: 54px;
+}
+.right-section-inner-box {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+}
+.right-section-inner-box h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.right-section-inner-box p {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.right-section-inner-box button {
+  margin-top: 3px;
+  padding: 5px 5px;
+  font-size: 0.6rem;
+  color: blueviolet;
+  font-weight: 600;
+  background-color: white;
+  border: 1px blueviolet solid;
+}
+.box-A {
+  border-right: 1px solid rgba(204, 204, 204, 0.5);
+  border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+  padding: 20px 20px;
+  margin-left: 20px;
+}
+.box-B {
+  border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+  padding: 20px 20px;
+}
+.box-C {
+  border-right: 1px solid rgba(204, 204, 204, 0.5);
+  padding: 20px 20px;
+  margin-left: 20px;
+}
+.box-D {
+  padding: 20px 20px;
+}
