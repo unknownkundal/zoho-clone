@@ -6,3 +6,4 @@ console.log(publicPath);
 app.use(express.static(publicPath));
 const port = process.env.PORT || 3000;
 app.listen(port);
+console.log('Hitesh')
